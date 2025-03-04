@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>To live is to fight, to fight is to live</h1>
+    <table>
+
+        <head>Street Fighter</head>
+
+        <tr>
+            <td id="ken">KEN</td>
+            <td id="chunli">CHUN LI</td>
+            <td id="zangief">ZANGIEF</td>
+            <td id="dhalsim">DHALSIN</td>
+        </tr>
+        <tr>
+            <td id="ryu">RYU</td>
+            <td id="ehonda">E HONDA</td>
+            <td id="blanka">BLANKA</td>
+            <td id="guille">GUILLE</td>
+        </tr>
+        <tr>
+            <td id="thawk">T HAWK</td>
+            <td id="feilong">FEILONG</td>
+            <td id="deejay">DEE JAY</td>
+            <td id="cammy">CAMMY</td>
+        </tr>
+        <tr>
+            <td id="balrog">BALROG</td>
+            <td id="vega">VEGA</td>
+            <td id="sagat">SAGAT</td>
+            <td id="mbison">M BISON</td>
+        </tr>
+    </table>
+    <h2 class="textoformulario">Formulario de Inscripción para jugar a Street Figther</h2>
+    <div class="formulario">
+        <form action="mailto:raul@unir.com">
+            <fieldset>
+                <legend>DATOS PERSONALES</legend>
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <p><input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div>
+                    <label for="apellidos">Apellidos: </label>
+                    <p><input type="text" name="Apellidos" id="apellidos" required>
+                </div>
+                <div>
+                    <label for="direccion">Direccion postal: </label>
+                    <p><input type="text" name="Direccion" id="direccion" placeholder="Calle" required>
+                        <input type="text" name="Direccion" id="direccion" placeholder="Nº" required>
+                        <input type="text" name="Direccion" id="direccion" placeholder="Piso" required>
+                        <input type="text" name="Direccion" id="direccion" placeholder="Cod. Postal" required>
+                        <input type="text" name="Direccion" id="direccion" placeholder="Ciudad" required>
+                </div>
+                <div>
+                    <label for="Nick">Nick: </label>
+                    <p><input type="text" name="Nick" id="nick" required>
+                </div>
+                <div>
+                    <label for="email">email: </label>
+                    <p><input type="email" name="email" id="email" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>SEXO USUARIO</legend>
+                <br><input type="radio" name="Sexo" value="Hombre">Hombre
+                <br><input type="radio" name="Sexo" value="Mujer">Mujer
+            </fieldset>
+            <fieldset>
+                <div class=">
+                    <label for=" fnacimiento">Fecha de nacimiento: </label>
+                    <input type="date" name="fnacimiento" id="fnacimiento">
+                </div>
+            </fieldset>
+            <div class="elemento">
+                <legend>PERSONAJES</legend>
+            </div>
+            </fieldset>
+            <div>
+                <input class="botones" type="reset" value="Borrar">
+                <input class="botones" type="submit" value="Enviar">
+            </div>
+            <p>Comentarios:
+                <br><textarea placeholder="Introduce un comentario de los personajes y la serie." maxlength="500"
+                    class="box">
+                    </textarea>
+                <br>
+        </form>
+    </div>
+
+</body>
+
+</html>
