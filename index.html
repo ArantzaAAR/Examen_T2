@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/arcade.png" type="image/x-icon">
+    <title>StreetFighter-UNIR</title>
 </head>
 <body>
     <h1>To live is to fight, to fight is to live</h1>
     <table>
-
-        <head>Street Fighter</head>
-
+        <th colspan="4" class="strimg">Street Fighter</th>
         <tr>
             <td id="ken">KEN</td>
             <td id="chunli">CHUN LI</td>
@@ -70,31 +69,34 @@
             </fieldset>
             <fieldset>
                 <legend>SEXO USUARIO</legend>
-                <br><input type="radio" name="Sexo" value="Hombre">Hombre
-                <br><input type="radio" name="Sexo" value="Mujer">Mujer
+                <p><input type="radio" name="Sexo" value="Hombre">Hombre
+                <p><input type="radio" name="Sexo" value="Mujer">Mujer
+                <p><input type="radio" name="Sexo" value="No decir">Prefiero No Decir           
             </fieldset>
             <fieldset>
-                <div class=">
+                <div>
                     <label for=" fnacimiento">Fecha de nacimiento: </label>
                     <input type="date" name="fnacimiento" id="fnacimiento">
                 </div>
             </fieldset>
-            <div class="elemento">
+            <fieldset>
                 <legend>PERSONAJES</legend>
-            </div>
+                <div>
+                    <label for="personaje">Selecciona el personaje: </label>
+                    <input type="text" name="personaje" id="persoanje">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>COMENTARIOS:</legend>
+                    <textarea placeholder="Introduce un comentario de los personajes y la serie." maxlength="500"
+                            class="box">
+                    </textarea>
             </fieldset>
             <div>
                 <input class="botones" type="reset" value="Borrar">
                 <input class="botones" type="submit" value="Enviar">
             </div>
-            <p>Comentarios:
-                <br><textarea placeholder="Introduce un comentario de los personajes y la serie." maxlength="500"
-                    class="box">
-                    </textarea>
-                <br>
         </form>
     </div>
-
 </body>
-
 </html>
