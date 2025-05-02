@@ -36,15 +36,6 @@ Los botones del formulario no solo cumplen su función, sino que también siguen
 
 ---
 
-## 🌐 Publicación del Sitio Web
-
-Una vez finalizado el desarrollo, el sitio ha sido publicado mediante **GitHub Pages**, permitiendo su acceso desde cualquier dispositivo con conexión a Internet. Este paso permite que el trabajo no solo exista localmente, sino que pueda ser mostrado, evaluado y compartido de manera profesional.
-
-> 🔗 Puedes acceder al sitio aquí:  
-> [https://<tu-usuario>.github.io/<nombre-del-repositorio>](https://<tu-usuario>.github.io/<nombre-del-repositorio>)
-
----
-
 ## 📁 Organización del Proyecto
 
 El proyecto está organizado de forma clara y funcional. Incluye los siguientes archivos y recursos:
